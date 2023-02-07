@@ -13,15 +13,15 @@ console.log(total);
 // --------------------------------------***
 // Problem 2: Finding even or odd
 // ----------------------------------*** 
-function evenOdd(str) {
-    if (str.length % 2 === 0) {
+function evenOdd(phero) {
+    if (phero.length % 2 === 0) {
       return "even";
     } else {
       return "odd";
     }
   }
   
-  console.log(evenOdd(3));
+  console.log(evenOdd(5));
 
 //   ---------------------------------------------------
 //   Problem 3: Is Less or Greater than seven****
